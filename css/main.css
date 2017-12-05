@@ -1,0 +1,21 @@
+/* Los estilos de tu proyecto */
+*{
+  margin: 0;
+  padding: 0;
+}
+.taxi-logo{
+  background-image: url('../assets/images/taxi.jpg');
+  background-size: cover;
+	width: 100%;
+	height: 50%;
+  background-position: center 93%;
+}
+
+.row1{
+margin-top: 10em;
+margin-bottom: 9em;
+}
+
+.div1{
+  padding: 1em;
+}
