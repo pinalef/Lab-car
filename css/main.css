@@ -16,6 +16,13 @@ margin-top: 10em;
 margin-bottom: 9em;
 }
 
-.div1{
+.div1, .movil1{
   padding: 1em;
 }
+ .row2{
+   border: 1px solid white;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   padding: 2em !important;
+ }
+
