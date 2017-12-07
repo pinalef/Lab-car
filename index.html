@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Font awesome-->
   <script src="https://use.fontawesome.com/69d348fe9a.js"></script>
    <!-- Compiled and minified CSS -->
@@ -22,7 +24,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="black-text" href="#">Viaja</a></li>
         <li><a class="black-text" href="#">Conduce</a></li>
-        <li><a class="black-text" href="#">Inicia sesion</a></li>
+        <li><a class="black-text modal-trigger" href="#modal1">Inicia sesion</a></li>
       </ul>
 <!-- Menu movil -->
       <ul class="side-nav" id="mobile-demo">
@@ -126,43 +128,79 @@
   </div>
 </section>
 <!-- Contenedor Footer -->
-<section class="#212121 grey darken-4" >
+<section class="#212121 grey darken-4 white-text" >
   <div class="row">
     <div class="col s12 m12 l12">
-      <div class="container linea-footer">
+      <div class="container linea-footer-down">
         <a href=""><img src="assets/images/logoBlanco.png" alt=""></a>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col l12">
+    <div class="col l12 ">
       <div class="container">
-        <div class="col l3">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-apple" aria-hidden="true"></i>
-            
-
-
-    
+        <div class="col s6 push-s6 push-m6 m6 l3">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-apple fa-2x" aria-hidden="true"></i>
         </div>
-        <div class="col l3"></div>
-        <div class="col l3"></div>
-        <div class="col l3"></div>
+        <div class="col s6 pull-s6 m6 pull-m6 l3 ">
+          <div class="container left ">
+            <div><a href="">Viaja</a></div>
+            <div><a href="">Conduce</a></div>
+            <div><a href="">Ciudades</a></div>
+            <div><a href="">Ciudades</a></div>
+            <div><a href="">Entregas</a></div>
+            <div><a href="">Como funciona?</a></div>
+            <div><a href="">Paises</a></div>
+            <div><a href="">Seguridad</a></div>
+          </div>
+        </div>
+        <div class="col l3 hide-on-med-and-down">
+          <div class="container">
+            <div><a href="">Oportunidades</a></div>
+            <div><a href="">Nuestra Historia</a></div>
+            <div><a href="">API de LabCar</a></div>
+            <div><a href="">Eventos</a></div>
+            <div><a href="">Desarrolladores</a></div>
+            <div><a href="">Servicios</a></div>
+            <div><a href="">Laboratoria</a></div>
+            <div><a href="">Coders</a></div>
+          </div>
+        </div>
+        <div class="col s6 push-s6 push-m6 m6 l3">
+          <div class="container">
+            <div>
+              <img class="responsive-img" src="assets/images/appstore.png" alt="">
+            </div>
+            <div>
+              <img class="responsive-img" src="assets/images/enBadgeWebGeneric.png" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <div class="container linea-footer-up">
+        <p>2017 LabCar technologies inc.</p>
       </div>
     </div>
   </div>
-  <div class="row"></div>
 </section>
+<!-- Modal1 Inicio Sesion -->
+<div id="modal1" class="modal" >
+  <div class="modal-content">
+    <h4>modal; header</h4>
+    <p>texto</p>
+  </div>
+</div>
 
    <!-- Compiled and minified JavaScript -->
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="js/app.js" ></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-   <!-- Inicializando boton movil -->
-   <script>
-     $(".button-collapse").sideNav();
-   </script>
-   
 </body>
 </html>

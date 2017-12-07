@@ -50,7 +50,15 @@ margin-bottom: 9em;
   height: auto !important;
 }
 
-.linea-footer{
+.linea-footer-down{
   border-bottom: 1px solid white;
   padding-top: 1em;
+}
+
+.linea-footer-up{
+  border-top: 1px solid white;  
+}
+
+a{
+  color: white;
 }
