@@ -3,8 +3,8 @@ $(document).ready(function(){
   $('.button-collapse').sideNav();
   //modal inicio sesion
   $('#modal1').modal(); 
-
-  $('#modal2').modal('close');
+  $('#modal2').modal();
+  $('select').material_select();
 });
 
 
