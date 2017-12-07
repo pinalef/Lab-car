@@ -29,7 +29,6 @@ margin-bottom: 9em;
 	width: 100%;
 	height: 50%;
   background-position: center 50%;
-  
 }
 
 .row3{
@@ -39,6 +38,10 @@ margin-bottom: 9em;
   margin-top: 4em;
   margin-bottom: 2em;
   background-color: rgba(0,0, 0, 0.5);
+}
+
+.input-field label {
+  color:white;
 }
 
 .iframe {
