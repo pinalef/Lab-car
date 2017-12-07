@@ -49,3 +49,8 @@ margin-bottom: 9em;
   width: 100% !important;
   height: auto !important;
 }
+
+.linea-footer{
+  border-bottom: 1px solid white;
+  padding-top: 1em;
+}
