@@ -62,3 +62,12 @@ margin-bottom: 9em;
 a{
   color: white;
 }
+
+/* modal */
+.modal {
+  max-height: 90%;
+}
+
+.modal-form-row {
+  margin-bottom: 0px;
+}

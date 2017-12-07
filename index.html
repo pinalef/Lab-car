@@ -30,7 +30,7 @@
       <ul class="side-nav" id="mobile-demo">
         <li><a href="#">Viaja</a></li>
         <li><a href="#">Conduce</a></li>
-        <li><a href="#">Inicia sesion</a></li>
+        <li><a class="modal-trigger" href="#modal1">Inicia sesion</a></li>
       </ul>
     </div>
   </div>
@@ -101,7 +101,6 @@
         <span>Consulta las tarifas de LabCar aqui</span>
         <div class="row">
           <div class="input-field ">
-            
             <input id="partida" type="text" class="validate">
             <label for="partida"><span><img src="assets/images/shape.png" alt=""></span>  Ingrese su punto de partida</label>
           </div>
@@ -185,7 +184,7 @@
   <div class="row">
     <div class="col s12 m12 l12">
       <div class="container linea-footer-up">
-        <p>2017 LabCar technologies inc.</p>
+        <p><i class="material-icons tiny">copyright</i> 2017 LabCar technologies inc.</p>
       </div>
     </div>
   </div>
@@ -193,8 +192,40 @@
 <!-- Modal1 Inicio Sesion -->
 <div id="modal1" class="modal" >
   <div class="modal-content">
-    <h4>modal; header</h4>
-    <p>texto</p>
+      <div class="row">
+        <form class="col s12 ">
+          <div class="row">
+            <div class="input-field col s12 ">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Username</label>
+            </div>
+            <div class="input-field col s12 ">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="icon_password" type="tel" class="validate">
+              <label for="icon_password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12  center">
+                <a class="waves-effect waves-light btn #ffc400 amber accent-3 ">Loging</a>
+                <p>Forgot Password? <a class="blue-text modal-trigger" href="#modal2">Click Here</a></p>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+<!-- Modal2 Registrate -->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+<p>si funcoina modal 2</p>
+        </div>
+      </form>
+    </div>
   </div>
 </div>
 
