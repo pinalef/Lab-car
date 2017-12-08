@@ -44,9 +44,9 @@
           <h4>Disfruta del viaje</h4>
           <h4>Eres dueno de tu viaje</h4>   
           <h6>Viaja con <img src="assets/images/logoBlanco.png" alt=""></h6>
-          <a class="waves-effect waves-light btn white black-text">REGISTRATE</a>
+          <a class="waves-effect waves-light btn white black-text modal-trigger modal-close" href="#modal2">REGISTRATE</a>
           <p>O bien</p>
-          <a class="waves-effect waves-light btn white black-text">Conviertete en un conductor</a>
+          <a class="waves-effect waves-light btn white black-text modal-trigger" href="#modal3">Conviertete en un conductor</a>
         </div>
 <!-- contenedor movil 1 -->
         <div class="movil1 hide-on-large-only">
@@ -87,7 +87,7 @@
         <h4>Conduce cuando quieras</h4>
         <p>LabCar es una opcion flexible para alcanzar tus metas financieras.</p>
         <br>
-        <a class="waves-effect waves-light btn #ffc400 amber accent-3 ">Conviertete en conductor</a>
+        <a class="waves-effect waves-light btn #ffc400 amber accent-3 modal-trigger" href="#modal3">Conviertete en conductor</a>
       </div>
     </div>
   </div>
@@ -208,8 +208,8 @@
           </div>
           <div class="row">
             <div class="col s12  center">
-                <a class="waves-effect waves-light btn #ffc400 amber accent-3 ">Loging</a>
-                <p>Forgot Password? <a class="blue-text modal-trigger modal-close" href="#modal2">Click Here</a></p>
+                <a class="waves-effect waves-light btn #ffc400 amber accent-3 modal-close ">Loging</a>
+                <p>Forgot Password? <a class="blue-text">Click Here</a></p>
             </div>
           </div>
         </form>
@@ -288,7 +288,68 @@
         </div>     
   </div>
 </div>
-
+<!-- Modal 3 Conviertete en conductor -->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <div class="row">
+      <div class="col s12">
+          <div class="row ">
+            <h6>Tienes un vehiculo de $ puertas?</h6>
+              <div class="input-field col s12 ">
+                  <select>
+                    <option value="" disabled selected>Si</option>
+                    <option value="1">Si</option>
+                    <option value="2">No</option>
+                  </select>
+                </div>
+          </div>
+          <div class="row ">
+              <h6>Marca</h6>
+                <div class="input-field col s12 ">
+                    <select>
+                      <option value="" disabled selected>Elige la marca del vehiculo</option>
+                      <option value="1">Nissan</option>
+                      <option value="2">Chevrolet</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="row ">
+                <h6>Modelo</h6>
+                  <div class="input-field col s12 ">
+                      <select>
+                        <option value="" disabled selected>modelo1  </option>
+                        <option value="1">modelo1</option>
+                        <option value="2">modelo2</option>
+                        <option value="2">modelo3</option>
+                      </select>
+                    </div>
+              </div>
+              <div class="row ">
+                  <h6>Año</h6>
+                    <div class="input-field col s12 ">
+                        <select>
+                          <option value="" disabled selected>2017</option>
+                          <option value="1">2017</option>
+                          <option value="2">2016</option>
+                          <option value="2">2015</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 black-text">
+                      <input placeholder="Numero de la matricula" id="matricula" type="text" class="validate">
+                      <label for="matricula">Numero de la matricula</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col s12  center">
+                          <a class="waves-effect waves-light btn #ffc400 amber accent-3 modal-close ">Enviar</a>
+                      </div>
+                    </div>
+      </div>
+    </div>
+  </div>
+</div>
    <!-- Compiled and minified JavaScript -->
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script type="text/javascript" src="js/app.js" ></script>
